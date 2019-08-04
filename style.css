@@ -1,0 +1,95 @@
+body {
+  background: rgb(240,240,240);
+  font-size: 25px;
+  font-family:'Varela Round', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  color: #2b92e4;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+  color: #f8d0d2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+a {
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f8d0d2;
+}
+
+.container {
+  padding: 50px;
+  text-align: center;
+  background-image: url('https://unsplash.com/photos/4iAXnRQA-cY');
+}
+
+.card {
+    background-color: #FFFDC9;
+    padding: 10px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 110px;
+    text-align: center;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.button-margin {
+  margin-top: 30px;
+}
+
+.btn-yellow {
+    background-color: #2b92e4;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+    }
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  }
+
+.list li {
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
